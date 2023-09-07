@@ -29,6 +29,8 @@ module.exports = {
 
 The following additional configs can also be extended, but are not enabled by default.
 
+- `moon/angular` - Enables the [angular] plugin.
+  - Extends the `browser` preset.
 - `moon/browser` - Sets the environment to the browser/DOM and enables the
   [compat](https://www.npmjs.com/package/eslint-plugin-compat) plugin. Should _not_ be used with the
   `node` preset.
